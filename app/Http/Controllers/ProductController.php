@@ -35,7 +35,7 @@ class ProductController extends Controller
         "price"=>['required','min:1']
        ]);
 
-       $data=Product::createProduct($validate);
+       $data=Product::create($validate);
        return redirect("/products")->with('success','Product Added Sucessfully!');
     }
 

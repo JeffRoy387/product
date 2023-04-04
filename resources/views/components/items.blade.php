@@ -6,6 +6,9 @@
     <li class="nav-item">
       <a class="nav-link" href="/addUser">Add Customer</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/addProduct">Add Product</a>
+    </li>
 
     <li class="nav-item">
         <a class="nav-link" href={{"/logout"}}>Logout</a>
